@@ -58,7 +58,7 @@ Route::get('/test1', function(Request $req1) {
 });
 
 
-Route::get('asm/',['uses' => 'tripController@getTt' , 'as' => 'aamal']);
+//Route::get('asm/',['uses' => 'tripController@getTt' , 'as' => 'aamal']);
 
 
 Route::get('/nnn' , 'tripController@getXx');
